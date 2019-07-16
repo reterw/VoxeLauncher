@@ -5,7 +5,7 @@ var zh = {
             manage: {
                 intro: "Manage your Minecraft effectively.",
             },
-            description: "一个免费开源，易于开发的 Minecraft 启动器",
+            description: "一个简洁，开源，功能驱动的 Minecraft 启动器",
         },
         download: "安装包",
         downloadFor: {

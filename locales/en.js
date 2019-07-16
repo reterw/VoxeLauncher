@@ -6,7 +6,7 @@ var en = {
                 intro: "Manage your Minecraft effectively.",
 
             },
-            description: "An Open Sources, Dev Friendly Minecraft Launcher",
+            description: "An Simple, Open Sources, and Function Orientated Minecraft Launcher",
         },
         download: "Installer",
         downloadFor: {
