@@ -44,7 +44,7 @@ function initGithubInfo() {
             case 'Windows':
                 $('[win]').clone().appendTo('[main]');
                 break;
-            case 'Mac':
+            case 'OS X':
                 $('[mac]').clone().appendTo('[main]');
                 break;
             case 'Ubuntu':
