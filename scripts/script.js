@@ -47,7 +47,11 @@ function initGithubInfo() {
             case 'Mac':
                 $('[mac]').clone().appendTo('[main]');
                 break;
-            case 'Linux':
+            case 'Ubuntu':
+            case 'Debian':
+            case 'SuSE':
+            case 'Fedora':
+            case 'Red Hat':
                 $('[linux]').clone().appendTo('[main]');
                 break;
         }
