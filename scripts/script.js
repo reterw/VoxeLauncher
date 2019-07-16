@@ -1,12 +1,11 @@
 i18next.init({
-    lng: 'en',
-    resources: { en, cn },
+    lng: navigator.language,
+    resources: { en, cn, zh_CN: cn, en_US: en },
 }, function (err, t) {
     jqueryI18next.init(i18next, $);
     $('.section').localize();
     $('.bar').localize();
 });
-
 
 $(document).ready(function () {
     $('body').pagepiling({
