@@ -87,7 +87,7 @@ function initGithubInfo() {
                     zip: is64 ? assets.find(a => a.name.endsWith('win.zip') && a.name.indexOf('ia32') === -1)
                         : assets.find(a => a.name.endsWith('win.zip') && a.name.indexOf('ia32') !== -1),
                 };
-            case 'Mac':
+            case 'OS X':
                 return {
                     installer: assets.find(a => a.name.endsWith('.dmg')),
                     zip: assets.find(a => a.name.endsWith('mac.zip')),
