@@ -1,4 +1,4 @@
-var cn = {
+var zh = {
     translation: {
         repository: "仓库地址",
         launcher: {
